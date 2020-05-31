@@ -21,10 +21,3 @@ if __name__ == "__main__":
     r = float(rate)
     p = computepay(h,r)
     print("Pay",p)
-
-
-# In[ ]:
-
-
-
-
