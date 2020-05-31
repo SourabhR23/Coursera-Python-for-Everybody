@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 """8.5 Open the file mbox-short.txt and read it line by line. When you find a line that starts with 'From ' like the 
 following line:
 From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008
@@ -23,4 +17,3 @@ for i in file_open:
     else:
         continue
 print("There were", count, "lines in the file with From as the first word")
-
