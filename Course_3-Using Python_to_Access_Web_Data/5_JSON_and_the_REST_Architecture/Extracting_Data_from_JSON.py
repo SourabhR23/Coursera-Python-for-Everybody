@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 """Extracting Data from JSON
 
 In this assignment you will write a Python program somewhat similar to http://www.py4e.com/code3/json2.py. The program will 
