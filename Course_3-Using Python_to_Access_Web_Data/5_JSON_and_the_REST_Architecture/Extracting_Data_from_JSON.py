@@ -33,10 +33,3 @@ while True:
     print('Count', len(comments))
     print('Sum', sum(counts))
     break
-
-
-# In[ ]:
-
-
-
-
