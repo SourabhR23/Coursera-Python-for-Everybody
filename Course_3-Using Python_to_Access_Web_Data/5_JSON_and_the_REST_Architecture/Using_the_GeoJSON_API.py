@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 """Calling a JSON API
 
 In this assignment you will write a Python program somewhat similar to http://www.py4e.com/code3/geojson.py. The program 
@@ -59,10 +53,3 @@ while True:
     location = js['results'][0]['formatted_address']
     print(location)
     break
-
-
-# In[ ]:
-
-
-
-
