@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 """Finding Numbers in a Haystack
 
 In this assignment you will read through and parse a file with text and numbers. You will extract all the numbers in the 
