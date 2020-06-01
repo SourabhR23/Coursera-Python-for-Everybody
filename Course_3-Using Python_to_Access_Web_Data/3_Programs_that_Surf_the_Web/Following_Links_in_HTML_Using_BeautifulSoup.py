@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 """In this assignment you will write a Python program that expands on http://www.py4e.com/code3/urllinks.py. The program 
 will use urllib to read the HTML from the data files below, extract the href= vaues from the anchor tags, scan for a tag 
 that is in a particular position relative to the first name in the list, follow that link and repeat the process a number 
