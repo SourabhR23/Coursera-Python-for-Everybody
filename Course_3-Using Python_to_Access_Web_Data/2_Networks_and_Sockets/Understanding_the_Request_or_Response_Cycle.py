@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 """Exploring the HyperText Transport Protocol
 
 You are to retrieve the following document using the HTTP protocol in a way that you can examine the HTTP Response headers.
