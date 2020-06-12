@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 '''Musical Track Database
 This application will read an iTunes export file in XML and produce a properly normalized database.
 
