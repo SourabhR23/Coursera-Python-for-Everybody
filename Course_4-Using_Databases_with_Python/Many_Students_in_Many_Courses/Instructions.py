@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 """Instructions
 This application will read roster data in JSON format, parse the file, and then produce an SQLite database that contains a 
 User, Course, and Member table and populate the tables from the data file."""
@@ -39,10 +33,6 @@ fname = input('Enter file name: ')
 if len(fname) < 1:
     fname = 'roster_data.json'
 
-# [
-#   [ "Charley", "si110", 1 ],
-#   [ "Mea", "si110", 0 ],
-
 str_data = open(fname).read()
 json_data = json.loads(str_data)
 
@@ -69,4 +59,4 @@ for entry in json_data:
         ( user_id, course_id, role) )
 
     conn.commit()
-
+    
