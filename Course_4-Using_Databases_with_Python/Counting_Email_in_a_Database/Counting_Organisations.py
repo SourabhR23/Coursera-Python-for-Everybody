@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 """Counting Organizations
 This application will read the mailbox data (mbox.txt) and count the number of email messages per organization (i.e. domain 
 name of the email address) using a database with the following schema to maintain the counts.
@@ -67,10 +61,3 @@ for row in cur.execute(sqlstr):
     print(str(row[0]), row[1])
 
 cur.close()
-
-
-# In[ ]:
-
-
-
-
